@@ -1,3 +1,4 @@
+#Prahlad's code
 class Course:
     def __init__(self, course_id, course_name, capacity):
         self.course_id = course_id
@@ -64,7 +65,7 @@ class CourseManager:
             print(f"Capacity: {course.capacity}")
             course.view_students()
 
-
+#Abhay's code
 def main():
     manager = CourseManager()
 
